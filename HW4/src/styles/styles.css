@@ -3,14 +3,14 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .container {
     position: relative;
     display: flex;
-    width: 100%; /* Make the container full width */
+    width: 100%; 
 }
 
 .white-block,
@@ -21,12 +21,12 @@ body {
 
 .white-block {
     background-color: #ffffff;
-    order: 1; /* Set the order to 1 to move it to the left */
+    order: 1; 
 }
 
 .green-block {
     background-color: #002417;
-    order: 2; /* Set the order to 2 to move it to the right */
+    order: 2; 
 }
 
 .text {
@@ -37,7 +37,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #000000;
-    z-index: 2; /* Ensure the text is on top of both blocks */
+    z-index: 2; 
 }
 
 .multi-color-letter-P{
