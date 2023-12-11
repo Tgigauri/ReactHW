@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 100%; /* Make the container full width */
+}
+
+.white-block,
+.green-block {
+    flex: 1;
+    height: 100vh;
+}
+
+.white-block {
+    background-color: #ffffff;
+    order: 1; /* Set the order to 1 to move it to the left */
+}
+
+.green-block {
+    background-color: #002417;
+    order: 2; /* Set the order to 2 to move it to the right */
+}
+
+.text {
+    font-size: 48px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    z-index: 2; /* Ensure the text is on top of both blocks */
+}
+
+.multi-color-letter-P{
+    background: linear-gradient(90deg, #002417 30%, #ffffff 50%);
+    background-clip: text;
+    color: transparent;
+
+}
+.multi-color-letter-lower-p{
+    background: linear-gradient(90deg, #002417 70%, #ffffff 50%);
+    background-clip: text;
+    color: transparent;
+}
+.multi-color-letter-n{
+    background: linear-gradient(90deg, #002417 50%, #ffffff 50%);
+    background-clip: text;
+    color: transparent;
+}
+.multi-color-letter-e{
+    background: linear-gradient(90deg, #002417 55%, #ffffff 50%);
+    background-clip: text;
+    color: transparent;
+}
