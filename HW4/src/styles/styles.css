@@ -51,7 +51,7 @@ body {
     color: transparent;
 }
 .multi-color-letter-n{
-    background: linear-gradient(90deg, #002417 75%, #ffffff 50%);
+    background: linear-gradient(90deg, #002417 60%, #ffffff 50%);
     background-clip: text;
     color: transparent;
 }
