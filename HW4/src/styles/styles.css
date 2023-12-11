@@ -36,23 +36,22 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000000;
     z-index: 2; 
 }
 
 .multi-color-letter-P{
-    background: linear-gradient(90deg, #002417 30%, #ffffff 50%);
+    background: linear-gradient(90deg, #002417 55%, #ffffff 50%);
     background-clip: text;
     color: transparent;
 
 }
 .multi-color-letter-lower-p{
-    background: linear-gradient(90deg, #002417 70%, #ffffff 50%);
+    background: linear-gradient(90deg, #002417 80%, #ffffff 50%);
     background-clip: text;
     color: transparent;
 }
 .multi-color-letter-n{
-    background: linear-gradient(90deg, #002417 50%, #ffffff 50%);
+    background: linear-gradient(90deg, #002417 75%, #ffffff 50%);
     background-clip: text;
     color: transparent;
 }
@@ -60,4 +59,10 @@ body {
     background: linear-gradient(90deg, #002417 55%, #ffffff 50%);
     background-clip: text;
     color: transparent;
+}
+.green_text{
+    color:#002417;
+}
+.white_text{
+    color: white;
 }
