@@ -40,13 +40,13 @@ body {
 }
 
 .multi-color-letter-P{
-    background: linear-gradient(90deg, #002417 55%, #ffffff 50%);
+    background: linear-gradient(90deg, #002417 35%, #ffffff 50%);
     background-clip: text;
     color: transparent;
 
 }
 .multi-color-letter-lower-p{
-    background: linear-gradient(90deg, #002417 80%, #ffffff 50%);
+    background: linear-gradient(90deg, #002417 60%, #ffffff 50%);
     background-clip: text;
     color: transparent;
 }
